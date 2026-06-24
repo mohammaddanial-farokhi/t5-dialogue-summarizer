@@ -34,8 +34,11 @@ https://huggingface.co/datasets/knkarthick/dialogsum
 پیش‌پردازش و توکنایز کردن دیتاست
 در این مرحله، دیالوگ‌ها با استفاده از قالب پرامپت زیر به ورودی مدل تبدیل شدند:
 Summarize the following conversation.
+
 {dialogue}
+
 Summary:
+
 
 سپس با استفاده از توکنایزر مدل `google/flan-t5-base`، ورودی‌ها و خلاصه‌ها توکنایز و به فرمت مناسب برای مدل‌های seq2seq تبدیل شدند. دیتاست نهایی برای استفاده در مراحل بعد کش (Cache) شد تا از پردازش مجدد جلوگیری شود.
 
