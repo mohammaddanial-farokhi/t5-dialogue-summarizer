@@ -33,10 +33,10 @@ https://huggingface.co/datasets/knkarthick/dialogsum
 ### 1️⃣ 
 پیش‌پردازش و توکنایز کردن دیتاست
 در این مرحله، دیالوگ‌ها با استفاده از قالب پرامپت زیر به ورودی مدل تبدیل شدند:
+
+
 Summarize the following conversation.
-
 {dialogue}
-
 Summary:
 
 
